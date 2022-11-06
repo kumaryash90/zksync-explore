@@ -1,0 +1,1316 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/yash/thirdweb/explore-zk/contractkit-zksync/zksync-nft-collection/contracts/MyZKSyncNFT.sol": {
+      "lastModificationDate": 1667744175030,
+      "contentHash": "171b7ba985deb9d2945adb4f805abc65",
+      "sourceName": "contracts/MyZKSyncNFT.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        },
+        "zksolc": {
+          "version": "1.2.0",
+          "compilerSource": "binary",
+          "settings": {
+            "compilerPath": "",
+            "experimental": {},
+            "optimizer": {
+              "enabled": true
+            }
+          }
+        }
+      },
+      "imports": [
+        "@thirdweb-dev/contracts/base/ERC721Base.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MyZKSyncNFT"
+      ]
+    },
+    "/Users/yash/thirdweb/explore-zk/contractkit-zksync/zksync-nft-collection/node_modules/@thirdweb-dev/contracts/base/ERC721Base.sol": {
+      "lastModificationDate": 1667743929426,
+      "contentHash": "856b1ff14d4b134b359ecf1859b6c97a",
+      "sourceName": "@thirdweb-dev/contracts/base/ERC721Base.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        },
+        "zksolc": {
+          "version": "1.2.0",
+          "compilerSource": "binary",
+          "settings": {
+            "compilerPath": "",
+            "experimental": {},
+            "optimizer": {
+              "enabled": true
+            }
+          }
+        }
+      },
+      "imports": [
+        "../eip/ERC721A.sol",
+        "../extension/ContractMetadata.sol",
+        "../extension/Multicall.sol",
+        "../extension/Ownable.sol",
+        "../extension/Royalty.sol",
+        "../extension/BatchMintMetadata.sol",
+        "../lib/TWStrings.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC721Base"
+      ]
+    },
+    "/Users/yash/thirdweb/explore-zk/contractkit-zksync/zksync-nft-collection/node_modules/@thirdweb-dev/contracts/extension/BatchMintMetadata.sol": {
+      "lastModificationDate": 1667743929427,
+      "contentHash": "d88b5603b9ad4d93097ba3440ca65860",
+      "sourceName": "@thirdweb-dev/contracts/extension/BatchMintMetadata.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        },
+        "zksolc": {
+          "version": "1.2.0",
+          "compilerSource": "binary",
+          "settings": {
+            "compilerPath": "",
+            "experimental": {},
+            "optimizer": {
+              "enabled": true
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BatchMintMetadata"
+      ]
+    },
+    "/Users/yash/thirdweb/explore-zk/contractkit-zksync/zksync-nft-collection/node_modules/@thirdweb-dev/contracts/lib/TWStrings.sol": {
+      "lastModificationDate": 1667743929436,
+      "contentHash": "51ab4021ca10be37124c176e4c301efd",
+      "sourceName": "@thirdweb-dev/contracts/lib/TWStrings.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        },
+        "zksolc": {
+          "version": "1.2.0",
+          "compilerSource": "binary",
+          "settings": {
+            "compilerPath": "",
+            "experimental": {},
+            "optimizer": {
+              "enabled": true
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TWStrings"
+      ]
+    },
+    "/Users/yash/thirdweb/explore-zk/contractkit-zksync/zksync-nft-collection/node_modules/@thirdweb-dev/contracts/eip/ERC721A.sol": {
+      "lastModificationDate": 1667743929427,
+      "contentHash": "e6dd5315eae4c4c18624dc4ecbfb7e78",
+      "sourceName": "@thirdweb-dev/contracts/eip/ERC721A.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        },
+        "zksolc": {
+          "version": "1.2.0",
+          "compilerSource": "binary",
+          "settings": {
+            "compilerPath": "",
+            "experimental": {},
+            "optimizer": {
+              "enabled": true
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interface/IERC721A.sol",
+        "../openzeppelin-presets/token/ERC721/IERC721Receiver.sol",
+        "../lib/TWAddress.sol",
+        "../openzeppelin-presets/utils/Context.sol",
+        "../lib/TWStrings.sol",
+        "./ERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "ERC721A"
+      ]
+    },
+    "/Users/yash/thirdweb/explore-zk/contractkit-zksync/zksync-nft-collection/node_modules/@thirdweb-dev/contracts/extension/ContractMetadata.sol": {
+      "lastModificationDate": 1667743929427,
+      "contentHash": "16b6bf6c285026ce94063a03474a3f35",
+      "sourceName": "@thirdweb-dev/contracts/extension/ContractMetadata.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        },
+        "zksolc": {
+          "version": "1.2.0",
+          "compilerSource": "binary",
+          "settings": {
+            "compilerPath": "",
+            "experimental": {},
+            "optimizer": {
+              "enabled": true
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interface/IContractMetadata.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ContractMetadata"
+      ]
+    },
+    "/Users/yash/thirdweb/explore-zk/contractkit-zksync/zksync-nft-collection/node_modules/@thirdweb-dev/contracts/extension/Royalty.sol": {
+      "lastModificationDate": 1667743929435,
+      "contentHash": "f8b65df8d02bdabf094cb8b8dcfd9033",
+      "sourceName": "@thirdweb-dev/contracts/extension/Royalty.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        },
+        "zksolc": {
+          "version": "1.2.0",
+          "compilerSource": "binary",
+          "settings": {
+            "compilerPath": "",
+            "experimental": {},
+            "optimizer": {
+              "enabled": true
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interface/IRoyalty.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Royalty"
+      ]
+    },
+    "/Users/yash/thirdweb/explore-zk/contractkit-zksync/zksync-nft-collection/node_modules/@thirdweb-dev/contracts/extension/Ownable.sol": {
+      "lastModificationDate": 1667743929427,
+      "contentHash": "b131c3cdf31ccc8f039ba7c89170eafe",
+      "sourceName": "@thirdweb-dev/contracts/extension/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        },
+        "zksolc": {
+          "version": "1.2.0",
+          "compilerSource": "binary",
+          "settings": {
+            "compilerPath": "",
+            "experimental": {},
+            "optimizer": {
+              "enabled": true
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interface/IOwnable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/Users/yash/thirdweb/explore-zk/contractkit-zksync/zksync-nft-collection/node_modules/@thirdweb-dev/contracts/extension/Multicall.sol": {
+      "lastModificationDate": 1667743929427,
+      "contentHash": "5880f0667049eb5d54e87d8a20d80472",
+      "sourceName": "@thirdweb-dev/contracts/extension/Multicall.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        },
+        "zksolc": {
+          "version": "1.2.0",
+          "compilerSource": "binary",
+          "settings": {
+            "compilerPath": "",
+            "experimental": {},
+            "optimizer": {
+              "enabled": true
+            }
+          }
+        }
+      },
+      "imports": [
+        "../lib/TWAddress.sol",
+        "./interface/IMulticall.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Multicall"
+      ]
+    },
+    "/Users/yash/thirdweb/explore-zk/contractkit-zksync/zksync-nft-collection/node_modules/@thirdweb-dev/contracts/eip/ERC165.sol": {
+      "lastModificationDate": 1667743929426,
+      "contentHash": "e4fa0042febfbf7ba6686dd4d1f5da9a",
+      "sourceName": "@thirdweb-dev/contracts/eip/ERC165.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        },
+        "zksolc": {
+          "version": "1.2.0",
+          "compilerSource": "binary",
+          "settings": {
+            "compilerPath": "",
+            "experimental": {},
+            "optimizer": {
+              "enabled": true
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interface/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC165"
+      ]
+    },
+    "/Users/yash/thirdweb/explore-zk/contractkit-zksync/zksync-nft-collection/node_modules/@thirdweb-dev/contracts/lib/TWAddress.sol": {
+      "lastModificationDate": 1667743929436,
+      "contentHash": "8d6d64d5a883a9fd1703c7e528df95d7",
+      "sourceName": "@thirdweb-dev/contracts/lib/TWAddress.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        },
+        "zksolc": {
+          "version": "1.2.0",
+          "compilerSource": "binary",
+          "settings": {
+            "compilerPath": "",
+            "experimental": {},
+            "optimizer": {
+              "enabled": true
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TWAddress"
+      ]
+    },
+    "/Users/yash/thirdweb/explore-zk/contractkit-zksync/zksync-nft-collection/node_modules/@thirdweb-dev/contracts/eip/interface/IERC721A.sol": {
+      "lastModificationDate": 1667743929783,
+      "contentHash": "d6a92ea3d2c0a4fb60312bbe508377ce",
+      "sourceName": "@thirdweb-dev/contracts/eip/interface/IERC721A.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        },
+        "zksolc": {
+          "version": "1.2.0",
+          "compilerSource": "binary",
+          "settings": {
+            "compilerPath": "",
+            "experimental": {},
+            "optimizer": {
+              "enabled": true
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC721.sol",
+        "./IERC721Metadata.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "IERC721A"
+      ]
+    },
+    "/Users/yash/thirdweb/explore-zk/contractkit-zksync/zksync-nft-collection/node_modules/@thirdweb-dev/contracts/openzeppelin-presets/utils/Context.sol": {
+      "lastModificationDate": 1667743929788,
+      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
+      "sourceName": "@thirdweb-dev/contracts/openzeppelin-presets/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        },
+        "zksolc": {
+          "version": "1.2.0",
+          "compilerSource": "binary",
+          "settings": {
+            "compilerPath": "",
+            "experimental": {},
+            "optimizer": {
+              "enabled": true
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/Users/yash/thirdweb/explore-zk/contractkit-zksync/zksync-nft-collection/node_modules/@thirdweb-dev/contracts/openzeppelin-presets/token/ERC721/IERC721Receiver.sol": {
+      "lastModificationDate": 1667743929880,
+      "contentHash": "592df588492d45fdcf46b3cb608c0fbf",
+      "sourceName": "@thirdweb-dev/contracts/openzeppelin-presets/token/ERC721/IERC721Receiver.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        },
+        "zksolc": {
+          "version": "1.2.0",
+          "compilerSource": "binary",
+          "settings": {
+            "compilerPath": "",
+            "experimental": {},
+            "optimizer": {
+              "enabled": true
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721Receiver"
+      ]
+    },
+    "/Users/yash/thirdweb/explore-zk/contractkit-zksync/zksync-nft-collection/node_modules/@thirdweb-dev/contracts/eip/interface/IERC165.sol": {
+      "lastModificationDate": 1667743929782,
+      "contentHash": "4ab7601799d3c6f785e6a6163975ea66",
+      "sourceName": "@thirdweb-dev/contracts/eip/interface/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        },
+        "zksolc": {
+          "version": "1.2.0",
+          "compilerSource": "binary",
+          "settings": {
+            "compilerPath": "",
+            "experimental": {},
+            "optimizer": {
+              "enabled": true
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "/Users/yash/thirdweb/explore-zk/contractkit-zksync/zksync-nft-collection/node_modules/@thirdweb-dev/contracts/eip/interface/IERC721Metadata.sol": {
+      "lastModificationDate": 1667743929783,
+      "contentHash": "58a1ebd2d67c09beae43297339f63dcc",
+      "sourceName": "@thirdweb-dev/contracts/eip/interface/IERC721Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        },
+        "zksolc": {
+          "version": "1.2.0",
+          "compilerSource": "binary",
+          "settings": {
+            "compilerPath": "",
+            "experimental": {},
+            "optimizer": {
+              "enabled": true
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721Metadata"
+      ]
+    },
+    "/Users/yash/thirdweb/explore-zk/contractkit-zksync/zksync-nft-collection/node_modules/@thirdweb-dev/contracts/eip/interface/IERC721.sol": {
+      "lastModificationDate": 1667743929782,
+      "contentHash": "6f25087cd5adc77b5785a8add92b4c5c",
+      "sourceName": "@thirdweb-dev/contracts/eip/interface/IERC721.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        },
+        "zksolc": {
+          "version": "1.2.0",
+          "compilerSource": "binary",
+          "settings": {
+            "compilerPath": "",
+            "experimental": {},
+            "optimizer": {
+              "enabled": true
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721"
+      ]
+    },
+    "/Users/yash/thirdweb/explore-zk/contractkit-zksync/zksync-nft-collection/node_modules/@thirdweb-dev/contracts/extension/interface/IContractMetadata.sol": {
+      "lastModificationDate": 1667743929784,
+      "contentHash": "dbd1c5f32e626fc34414eb0d89ac6db8",
+      "sourceName": "@thirdweb-dev/contracts/extension/interface/IContractMetadata.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        },
+        "zksolc": {
+          "version": "1.2.0",
+          "compilerSource": "binary",
+          "settings": {
+            "compilerPath": "",
+            "experimental": {},
+            "optimizer": {
+              "enabled": true
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IContractMetadata"
+      ]
+    },
+    "/Users/yash/thirdweb/explore-zk/contractkit-zksync/zksync-nft-collection/node_modules/@thirdweb-dev/contracts/extension/interface/IRoyalty.sol": {
+      "lastModificationDate": 1667743929787,
+      "contentHash": "6eb78cc3b49cba22ec886292ff36251f",
+      "sourceName": "@thirdweb-dev/contracts/extension/interface/IRoyalty.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        },
+        "zksolc": {
+          "version": "1.2.0",
+          "compilerSource": "binary",
+          "settings": {
+            "compilerPath": "",
+            "experimental": {},
+            "optimizer": {
+              "enabled": true
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../eip/interface/IERC2981.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IRoyalty"
+      ]
+    },
+    "/Users/yash/thirdweb/explore-zk/contractkit-zksync/zksync-nft-collection/node_modules/@thirdweb-dev/contracts/eip/interface/IERC2981.sol": {
+      "lastModificationDate": 1667743929782,
+      "contentHash": "a933ad249f022d6c8a90ecd7cb101c11",
+      "sourceName": "@thirdweb-dev/contracts/eip/interface/IERC2981.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        },
+        "zksolc": {
+          "version": "1.2.0",
+          "compilerSource": "binary",
+          "settings": {
+            "compilerPath": "",
+            "experimental": {},
+            "optimizer": {
+              "enabled": true
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC2981"
+      ]
+    },
+    "/Users/yash/thirdweb/explore-zk/contractkit-zksync/zksync-nft-collection/node_modules/@thirdweb-dev/contracts/extension/interface/IOwnable.sol": {
+      "lastModificationDate": 1667743929785,
+      "contentHash": "3bd6304b9bbfe4f27cbddd75dee02517",
+      "sourceName": "@thirdweb-dev/contracts/extension/interface/IOwnable.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        },
+        "zksolc": {
+          "version": "1.2.0",
+          "compilerSource": "binary",
+          "settings": {
+            "compilerPath": "",
+            "experimental": {},
+            "optimizer": {
+              "enabled": true
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IOwnable"
+      ]
+    },
+    "/Users/yash/thirdweb/explore-zk/contractkit-zksync/zksync-nft-collection/node_modules/@thirdweb-dev/contracts/extension/interface/IMulticall.sol": {
+      "lastModificationDate": 1667743929786,
+      "contentHash": "7c8d43c8ace471cd8e4ebfe9bf6f8535",
+      "sourceName": "@thirdweb-dev/contracts/extension/interface/IMulticall.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        },
+        "zksolc": {
+          "version": "1.2.0",
+          "compilerSource": "binary",
+          "settings": {
+            "compilerPath": "",
+            "experimental": {},
+            "optimizer": {
+              "enabled": true
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IMulticall"
+      ]
+    },
+    "/Users/yash/thirdweb/explore-zk/contractkit-zksync/zksync-nft-collection/node_modules/@thirdweb-dev/contracts/extension/LazyMint.sol": {
+      "lastModificationDate": 1667743929427,
+      "contentHash": "d813b0bd46e85fbc07b5e8c0ce2d0495",
+      "sourceName": "@thirdweb-dev/contracts/extension/LazyMint.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        },
+        "zksolc": {
+          "version": "1.2.0",
+          "compilerSource": "binary",
+          "settings": {
+            "compilerPath": "",
+            "experimental": {},
+            "optimizer": {
+              "enabled": true
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interface/ILazyMint.sol",
+        "./BatchMintMetadata.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "LazyMint"
+      ]
+    },
+    "/Users/yash/thirdweb/explore-zk/contractkit-zksync/zksync-nft-collection/node_modules/@thirdweb-dev/contracts/extension/interface/ILazyMint.sol": {
+      "lastModificationDate": 1667743929784,
+      "contentHash": "b565bc8673dd4b33adfefd882db49690",
+      "sourceName": "@thirdweb-dev/contracts/extension/interface/ILazyMint.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        },
+        "zksolc": {
+          "version": "1.2.0",
+          "compilerSource": "binary",
+          "settings": {
+            "compilerPath": "",
+            "experimental": {},
+            "optimizer": {
+              "enabled": true
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ILazyMint"
+      ]
+    },
+    "/Users/yash/thirdweb/explore-zk/contractkit-zksync/zksync-nft-collection/node_modules/@thirdweb-dev/contracts/base/ERC721LazyMint.sol": {
+      "lastModificationDate": 1667743929426,
+      "contentHash": "b5f94a6a912213125070f6b8b3c4b82b",
+      "sourceName": "@thirdweb-dev/contracts/base/ERC721LazyMint.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        },
+        "zksolc": {
+          "version": "1.2.0",
+          "compilerSource": "binary",
+          "settings": {
+            "compilerPath": "",
+            "experimental": {},
+            "optimizer": {
+              "enabled": true
+            }
+          }
+        }
+      },
+      "imports": [
+        "../eip/ERC721A.sol",
+        "../extension/ContractMetadata.sol",
+        "../extension/Multicall.sol",
+        "../extension/Ownable.sol",
+        "../extension/Royalty.sol",
+        "../extension/BatchMintMetadata.sol",
+        "../extension/LazyMint.sol",
+        "../extension/interface/IClaimableERC721.sol",
+        "../lib/TWStrings.sol",
+        "../openzeppelin-presets/security/ReentrancyGuard.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC721LazyMint"
+      ]
+    },
+    "/Users/yash/thirdweb/explore-zk/contractkit-zksync/zksync-nft-collection/node_modules/@thirdweb-dev/contracts/extension/interface/IClaimableERC721.sol": {
+      "lastModificationDate": 1667743929784,
+      "contentHash": "a44bfafa5627efa8c627b7ef9e0c50b1",
+      "sourceName": "@thirdweb-dev/contracts/extension/interface/IClaimableERC721.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        },
+        "zksolc": {
+          "version": "1.2.0",
+          "compilerSource": "binary",
+          "settings": {
+            "compilerPath": "",
+            "experimental": {},
+            "optimizer": {
+              "enabled": true
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IClaimableERC721"
+      ]
+    },
+    "/Users/yash/thirdweb/explore-zk/contractkit-zksync/zksync-nft-collection/node_modules/@thirdweb-dev/contracts/openzeppelin-presets/security/ReentrancyGuard.sol": {
+      "lastModificationDate": 1667743929788,
+      "contentHash": "3f649a1a493ae2df28274ac4319191e0",
+      "sourceName": "@thirdweb-dev/contracts/openzeppelin-presets/security/ReentrancyGuard.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        },
+        "zksolc": {
+          "version": "1.2.0",
+          "compilerSource": "binary",
+          "settings": {
+            "compilerPath": "",
+            "experimental": {},
+            "optimizer": {
+              "enabled": true
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ReentrancyGuard"
+      ]
+    },
+    "/Users/yash/thirdweb/explore-zk/contractkit-zksync/zksync-nft-collection/contracts/ZKSyncPayableNFT.sol": {
+      "lastModificationDate": 1667754409267,
+      "contentHash": "8e1535c53f990339da6a8a3d5b2be50d",
+      "sourceName": "contracts/ZKSyncPayableNFT.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        },
+        "zksolc": {
+          "version": "1.2.0",
+          "compilerSource": "binary",
+          "settings": {
+            "compilerPath": "",
+            "experimental": {},
+            "optimizer": {
+              "enabled": true
+            }
+          }
+        }
+      },
+      "imports": [
+        "@thirdweb-dev/contracts/base/ERC721LazyMint.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ZKSyncPayableNFT"
+      ]
+    }
+  }
+}
